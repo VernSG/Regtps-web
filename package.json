@@ -9,11 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "@tabler/icons-react": "^3.22.0",
     "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
     "framer-motion": "^11.11.17",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-element-to-jsx-string": "^15.0.0",
+    "sonner": "^1.7.0",
     "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
