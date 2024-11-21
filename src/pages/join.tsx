@@ -1,11 +1,11 @@
 import { FeaturesSectionDemo } from "@/components/feature";
 import { HeroParallaxDemo } from "@/components/hero";
-import { NavbarDemo } from "@/components/navbar";
+import { FloatingNavDemo } from "@/components/navbar";
 
 export default function Join() {
     return (
         <>
-        <NavbarDemo />
+        <FloatingNavDemo />
         <HeroParallaxDemo />
         <FeaturesSectionDemo />
         </>
