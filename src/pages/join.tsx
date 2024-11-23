@@ -1,14 +1,15 @@
 import { FeaturesSectionDemo } from "@/components/feature";
-import { HeroParallaxDemo } from "@/components/hero";
-import { Inter } from 'next/font/google';
-import Header from '@/components/header';
-import { TailwindIndicator } from '@/components/tailwind-indicator';
+import { Inter } from "next/font/google";
+import Header from "@/components/header";
+import { TailwindIndicator } from "@/components/tailwind-indicator";
+import { AccordionDemo } from "@/components/accordion";
+import { HeroVideoDialogDemo } from "@/components/hero-video";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Regtps',
-  description: 'Growtopia private server',
+  title: "Regtps",
+  description: "Growtopia private server",
 };
 
 export default function Join() {
@@ -16,7 +17,9 @@ export default function Join() {
     <>
       <Header />
       <TailwindIndicator />
-      <HeroParallaxDemo />
+      <div className="p-10">
+        <HeroVideoDialogDemo />
+      </div>
       <FeaturesSectionDemo />
     </>
   );
