@@ -1,4 +1,5 @@
 import { AuroraBackgroundDemo } from "@/components/aurora";
+import ButtonFunc from "@/components/ui/button";
 import React, { useEffect } from "react";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
   }, []);
   return (
     <>
-    <AuroraBackgroundDemo />  
+      <AuroraBackgroundDemo />
     </>
-  )
+  );
 }

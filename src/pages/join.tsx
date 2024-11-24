@@ -2,8 +2,7 @@ import { FeaturesSectionDemo } from "@/components/feature";
 import { Inter } from "next/font/google";
 import Header from "@/components/header";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
-import { AccordionDemo } from "@/components/accordion";
-import { HeroVideoDialogDemo } from "@/components/hero-video";
+import { OrbitingCirclesDemo } from "@/components/circles";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +16,12 @@ export default function Join() {
     <>
       <Header />
       <TailwindIndicator />
-      <div className="p-10">
-        <HeroVideoDialogDemo />
+      <div className="">
+        <OrbitingCirclesDemo />
       </div>
-      <FeaturesSectionDemo />
+      <div id="feature">
+        <FeaturesSectionDemo />
+      </div>
     </>
   );
 }
