@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Header from "@/components/header";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { OrbitingCirclesDemo } from "@/components/circles";
+import { HowToPlayCards } from "@/components/card-android";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +24,10 @@ export default function Join() {
       <div id="feature">
         <FeaturesSectionDemo />
       </div>
+      <div id="howtoplay">
+        <HowToPlayCards />
+      </div>
+      <Footer />
     </>
   );
 }

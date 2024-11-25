@@ -6,7 +6,7 @@ export default function MainNav() {
     <div className="hidden md:flex">
       <nav className="flex items-center gap-3 lg:gap-4 ml-8">
         <p className="mr-3">|</p>
-        <Link href="#feature" className="font-bold">
+        <Link href="#howtoplay" className="font-bold">
           How to play
         </Link>
         <Link href="/about" className="font-bold">

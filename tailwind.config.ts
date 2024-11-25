@@ -16,11 +16,24 @@ module.exports = {
         orbit: "orbit calc(var(--duration)*1s) linear infinite",
         aurora: "aurora 60s linear infinite",
         shimmer: "shimmer 2s linear infinite",
+        fadeIn: "fadeIn 0.3s ease-out",
+        fadeOut: "fadeOut 0.3s ease-in",
 
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0, transform: "translate(-50%, -50%) scale(0.95)" },
+          "100%": { opacity: 1, transform: "translate(-50%, -50%) scale(1)" },
+        },
+        fadeOut: {
+          "0%": { opacity: 1, transform: "translate(-50%, -50%) scale(1)" },
+          "100%": {
+            opacity: 0,
+            transform: "translate(-50%, -50%) scale(0.95)",
+          },
+        },
         orbit: {
           "0%": {
             transform:

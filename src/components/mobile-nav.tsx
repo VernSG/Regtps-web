@@ -27,7 +27,7 @@ export default function MobileNav() {
               quality={75} // Kualitas gambar (opsional, default 75)
             />
             <nav className="flex flex-col gap-3 lg:gap-4 mt-6">
-              <Link href="/project" className="font-bold">
+              <Link href="#howtoplay" className="font-bold">
                 How to play
               </Link>
               <Link href="/about" className="font-bold">

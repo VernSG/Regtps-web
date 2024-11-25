@@ -19,8 +19,7 @@ export function FeaturesSectionDemo() {
     },
     {
       title: "Picture with Mods",
-      description:
-        "Get photos effortlessly using our advanced commands.",
+      description: "Get photos effortlessly using our advanced commands.",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
     },
@@ -129,7 +128,7 @@ export const SkeletonOne = () => {
 export const SkeletonThree = () => {
   return (
     <Link
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
+      href="https://www.youtube.com/watch?v=lI2pbqlBQkU&t=3s"
       target="__blank"
       className="relative flex gap-10  h-full group/image"
     >
