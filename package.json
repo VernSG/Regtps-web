@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@emotion/react": "^11.13.5",
@@ -25,6 +26,7 @@
     "lucide-react": "^0.460.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "15.0.3",
+    "next-sitemap": "^4.2.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-element-to-jsx-string": "^15.0.0",
